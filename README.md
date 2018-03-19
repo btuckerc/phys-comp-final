@@ -10,16 +10,14 @@ Dependencies:
 
 ## Built With
 
-* [Name](https://www.google.com/) - Description
+* [OpenCV](https://opencv.org/) - A computer vision module for Python.
 
 ## Authors
 
 * **Tucker Craig** - Davidson College Class of 2020 - [tucraig](https://github.com/tucraig)
 
-See also the list of [contributors](https://github.com/tucraig/beautiful-game/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/tucraig/phys-comp-final/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* sentdex on YouTube
