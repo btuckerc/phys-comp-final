@@ -17,6 +17,7 @@ sudo apt-get install libopencv-dev python-opencv
 ## Built With
 
 * [OpenCV](https://opencv.org/) - A computer vision module for Python.
+* [HaarCascades](https://github.com/opencv/opencv/tree/master/data/haarcascades) - Definition of objects to be found in video stream in conjunction with OpenCV.
 
 ## Authors
 
