@@ -10,9 +10,9 @@ Dependencies:
 
 To download opencv on linux: 
 
-'''
+```
 apt-get install python-OpenCV
-'''
+```
 
 ## Built With
 
