@@ -11,7 +11,9 @@ Dependencies:
 To download opencv on linux: 
 
 ```
-apt-get install python-OpenCV
+sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+1
+sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 ```
 
 ## Built With
