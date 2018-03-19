@@ -8,6 +8,12 @@ Dependencies:
 	matplotlib
 	cv2 (opencv)
 
+To download opencv on linux: 
+
+'''
+apt-get install python-OpenCV
+'''
+
 ## Built With
 
 * [OpenCV](https://opencv.org/) - A computer vision module for Python.
