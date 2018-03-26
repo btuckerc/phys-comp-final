@@ -33,4 +33,5 @@ See also the list of [contributors](https://github.com/tucraig/phys-comp-final/c
 
 ## Acknowledgments
 
+* [prompt](https://docs.google.com/document/d/e/2PACX-1vQklaunRcSSlpSk-DiuoAwtUCr8A_91_vcj5n6xWuxzLRZ0zWeHhpuZyv9fxnLSLjG3j-L8xEPxtKOM/pub)
 * sentdex on YouTube
