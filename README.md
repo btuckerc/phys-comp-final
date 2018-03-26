@@ -32,6 +32,7 @@ Dataflow:
 Potential visualization:
 
 ![alt text](potential-viz.gif "potential viz")
+![alt text](twitter.png "potential twitter")
 
 ## Built With
 
