@@ -21,7 +21,7 @@ Sensors:
 - microphone
 - pi light sensor
 
-![alt text](phys-comp-final/dataflow.png)
+![alt text](dataflow.png "dataflow")
 
 ## Built With
 
