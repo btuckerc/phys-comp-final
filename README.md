@@ -1,5 +1,5 @@
 ## Physical Computing Final Project
-Dummy owl which will analyze pi-camera data to figure out either fashion trends, if students tend to leave on bike, if they leave with backpacks, etc. A microphone will be used to analyze overall volume of the environment. A daylight sensor will help the owl decide when to sleep (or sleep only certain sensors). Tweets will be produced related to the data; either count of people walking/biking, average color of shirt, average/max volume of the day. Data will be visualized using Dash. See sentdex tutorial on YouTube.
+Dummy owl which will analyze pi-camera data to figure out either fashion trends, if students tend to leave for class on bike, if they leave with backpacks, etc. Birds have very advanced eyesight which is what motivates having an analyzed camera in the system. A microphone will be used to analyze overall volume of the environment. This will be used to understand how loud humans are being in the given area and the impact that humans are having on the audio-volume of a particular place. A pi LDR (light sensor) will help the owl decide when to sleep (or put only certain sensors to sleep). Tweets will be produced by the owl (lol) related to the data. These tweets will be composed of either a count of people walking/biking, average color of pedestrian's shirts for the day, average/max volume of the day, etc. There's a possibility that data will be visualized using Dash, as well, on my website. See sentdex tutorial on Dash on YouTube.
 
 ## Deployment
 
@@ -19,6 +19,9 @@ Sensors:
 
 - pi-camera
 - microphone
+- pi light sensor
+
+![alt text](https://raw.githubusercontent.com/tucraig/phys-comp-final/dataflow.png)
 
 ## Built With
 
