@@ -1,18 +1,22 @@
 ## Physical Computing Final Project
-Dummy owl which will analyze pi-camera data to figure out either fashion trends, if students tend to leave on bike, if they leave with backpacks, etc. Tweets will be produced related to the data. Data will be visualized using Dash. See sentdex tutorial on YouTube.
+Dummy owl which will analyze pi-camera data to figure out either fashion trends, if students tend to leave on bike, if they leave with backpacks, etc. A microphone will be used to analyze overall volume of the environment. A daylight sensor will help the owl decide when to sleep (or sleep only certain sensors). Tweets will be produced related to the data; either count of people walking/biking, average color of shirt, average/max volume of the day. Data will be visualized using Dash. See sentdex tutorial on YouTube.
 
 ## Deployment
 
-Dependencies:
+Python Dependencies:
 	numpy
 	matplotlib
 	cv2 (opencv)
 
-To download opencv on linux: 
+To download opencv on linux:
 
 ```
 sudo apt-get install libopencv-dev python-opencv
 ```
+
+Sensors:
+	pi-camera
+	microphone
 
 ## Built With
 
