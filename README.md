@@ -5,9 +5,9 @@ Dummy owl which will analyze pi-camera data to figure out either fashion trends,
 
 Python Dependencies:
 
-	- numpy
-	- matplotlib
-	- cv2 (opencv)
+- numpy
+- matplotlib
+- cv2 (opencv)
 
 To download opencv on linux:
 
@@ -17,8 +17,8 @@ sudo apt-get install libopencv-dev python-opencv
 
 Sensors:
 
-	- pi-camera
-	- microphone
+- pi-camera
+- microphone
 
 ## Built With
 
