@@ -23,7 +23,7 @@ Sensors:
 
 Design:
 
-![alt text](design-1.jpg "view 1" =150x300)
+![alt text](design-1.jpg "view 1" | height=300)
 
 Dataflow:
 
