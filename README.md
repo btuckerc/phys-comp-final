@@ -23,18 +23,20 @@ Sensors:
 
 Design:
 
-![alt text](design-1.jpg "view 1")
 <a href="url"><img src="design-1.jpg" align="left" height="300" ></a>
 
 
 Dataflow:
 
-![alt text](dataflow.png "dataflow")
+<!-- ![alt text](dataflow.png "dataflow") -->
+<a href="url"><img src="dataflow.png" align="left" height="300" ></a>
 
 Potential visualization:
 
-![alt text](potential-viz.gif "potential viz")
-![alt text](twitter.png "potential twitter" {width=40px height=400px})
+<!-- ![alt text](potential-viz.gif "potential viz") -->
+<a href="url"><img src="potential-viz.gif" align="left" height="300" ></a>
+<a href="url"><img src="twitter.png" align="right" height="300" ></a>
+<!-- ![alt text](twitter.png "potential twitter" {width=40px height=400px}) -->
 
 ## Built With
 
