@@ -23,20 +23,20 @@ Sensors:
 
 Design:
 
-![alt text](design-1.jpg "design-1") ![alt text](design-2.jpg "design-2")
+![alt text](/proposal/design-1.jpg "design-1") ![alt text](design-2.jpg "design-2")
 
 Potential location:
 
-![alt text](location.jpg "potential location")
+![alt text](/proposal/location.jpg "potential location")
 
 Dataflow:
 
-![alt text](dataflow.png "dataflow")
+![alt text](/proposal/dataflow.png "dataflow")
 
 Potential visualization:
 
-![alt text](potential-viz.gif "potential viz")
-![alt text](twitter.png "potential twitter")
+![alt text](/proposal/potential-viz.gif "potential viz")
+![alt text](/proposal/twitter.png "potential twitter")
 
 ## Built With
 
