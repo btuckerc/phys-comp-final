@@ -23,7 +23,7 @@ Sensors:
 
 Design:
 
-![alt text](/proposal/design-1.jpg "design-1") ![alt text](design-2.jpg "design-2")
+![alt text](/proposal/design-1.jpg "design-1") ![alt text](/proposal/design-2.jpg "design-2")
 
 Potential location:
 
