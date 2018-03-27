@@ -23,7 +23,7 @@ Sensors:
 
 Design:
 
-<a href="url"><img src="design-1.jpg" align="left" height="300" ></a>
+<a href="url"><img src="design-1.jpg" align="left" height="300" ></a> </br>
 
 
 Dataflow:
