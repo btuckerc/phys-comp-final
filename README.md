@@ -23,7 +23,9 @@ Sensors:
 
 Design:
 
-![alt text](design-1.jpg "view 1"){ height=300px }
+![alt text](design-1.jpg "view 1")
+<a href="url"><img src="design-1.jpg" align="left" height="48" width="48" ></a>
+
 
 Dataflow:
 
@@ -32,7 +34,7 @@ Dataflow:
 Potential visualization:
 
 ![alt text](potential-viz.gif "potential viz")
-![alt text](twitter.png "potential twitter")
+![alt text](twitter.png "potential twitter" {width=40px height=400px})
 
 ## Built With
 
