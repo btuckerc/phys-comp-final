@@ -23,7 +23,7 @@ Sensors:
 
 Design:
 
-![alt text](design-1.jpg "design-1")
+![alt text](design-1.jpg "design-1") ![alt text](design-2.jpg "design-2")
 
 Dataflow:
 
@@ -32,7 +32,7 @@ Dataflow:
 Potential visualization:
 
 ![alt text](potential-viz.gif "potential viz")
-![alt text](twitter.png "potential twitter" {width=40px height=400px})
+![alt text](twitter.png "potential twitter")
 
 ## Built With
 
