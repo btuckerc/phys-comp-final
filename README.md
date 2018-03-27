@@ -26,6 +26,7 @@ Design:
 ![alt text](design-1.jpg "design-1") ![alt text](design-2.jpg "design-2")
 
 Potential location:
+
 ![alt text](location.jpg "potential location")
 
 Dataflow:
