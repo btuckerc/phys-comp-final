@@ -1,5 +1,5 @@
 ## Physical Computing Final Project
-Dummy owl which will analyze pi-camera data to figure out either fashion trends, if students tend to leave for class on bike, if they leave with backpacks, etc. Birds have very advanced eyesight which is what motivates having an analyzed camera in the system. A microphone will be used to analyze overall volume of the environment. This will be used to understand how loud humans are being in the given area and the impact that humans are having on the audio-volume of a particular place. A pi LDR (light sensor) will help the owl decide when to sleep (or put only certain sensors to sleep). Tweets will be produced by the owl (lol) related to the data. These tweets will be composed of either a count of people walking/biking, average color of pedestrian's shirts for the day, average/max volume of the day, etc. There's a possibility that data will be visualized using Dash, as well, on my website. See sentdex tutorial on Dash on YouTube.
+Dummy owl which will analyze pi-camera data to figure out either fashion trends, if students tend to leave for class on bike, if they leave with backpacks, etc. Birds have very advanced eyesight which is what motivates having an analyzed camera in the system. A microphone will be used to analyze overall volume of the environment. This will be used to understand how loud humans are being in the given area and the impact that humans are having on the audio-volume of a particular place. A pi LDR (light sensor) will help the owl decide when to sleep (or put only certain sensors to sleep). Tweets will be produced by the owl (lol) related to the data. These tweets will be composed of either a count of people walking/biking, average color of pedestrian's shirts for the day, average/max volume of the day, etc. There's a possibility that data will be visualized using Dash, as well, on my website. See sentdex [tutorial on Dash](https://www.youtube.com/watch?v=J_Cy_QjG6NE&list=PLQVvvaa0QuDfsGImWNt1eUEveHOepkjqt) on YouTube.
 
 ## Deployment
 
@@ -52,4 +52,4 @@ See also the list of [contributors](https://github.com/tucraig/phys-comp-final/c
 ## Acknowledgments
 
 * [prompt](https://docs.google.com/document/d/e/2PACX-1vQklaunRcSSlpSk-DiuoAwtUCr8A_91_vcj5n6xWuxzLRZ0zWeHhpuZyv9fxnLSLjG3j-L8xEPxtKOM/pub)
-* sentdex on YouTube
+* [sentdex](https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ) on YouTube
