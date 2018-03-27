@@ -23,7 +23,7 @@ Sensors:
 
 Design:
 
-![alt text](design-1.jpg "view 1")
+![alt text](design-1.jpg "view 1" =x300)
 
 Dataflow:
 
