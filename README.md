@@ -29,13 +29,13 @@ Design:
 Dataflow:
 
 <!-- ![alt text](dataflow.png "dataflow") -->
-<a href="url"><img src="dataflow.png" align="left" height="300" ></a>
+<a href="url"><img src="dataflow.png" align="left" width="100%" ></a>
 
 Potential visualization:
 
 <!-- ![alt text](potential-viz.gif "potential viz") -->
-<a href="url"><img src="potential-viz.gif" align="left" height="300" ></a>
-<a href="url"><img src="twitter.png" align="right" height="300" ></a>
+<a href="url"><img src="potential-viz.gif" align="left" width="100%" ></a>
+<a href="url"><img src="twitter.png" align="right" widht="100%" ></a>
 <!-- ![alt text](twitter.png "potential twitter" {width=40px height=400px}) -->
 
 ## Built With
