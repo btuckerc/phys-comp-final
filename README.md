@@ -24,7 +24,7 @@ Sensors:
 Design:
 
 ![alt text](design-1.jpg "view 1")
-<a href="url"><img src="design-1.jpg" align="left" height="48" width="48" ></a>
+<a href="url"><img src="design-1.jpg" align="left" height="300" ></a>
 
 
 Dataflow:
