@@ -1,39 +1,63 @@
-import cv2
+import cv2,sys, os, time
 import numpy as np
 from matplotlib import pyplot as plt
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 body_cascade = cv2.CascadeClassifier('haarcascade_fullbody.xml')
-bike_cascade = cv2.CascadeClassifier('bicycle.xml')
+uBody_cascade = cv2.CascadeClassifier('haarcascade_upperbody.xml')
+#bike_cascade = cv2.CascadeClassifier('bicycle.xml')
 
 cap = cv2.VideoCapture(0)
+width  = int(cap.get(cv2.cv.CV_CAP_PROP_FRAME_WIDTH))
+height = int(cap.get(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT))
+fps    = cap.get(cv2.cv.CV_CAP_PROP_FPS)
+fourcc = cv2.cv.CV_FOURCC('M','J','P','G')
+fourcc = int(cap.get(cv2.cv.CV_CAP_PROP_FOURCC))
+#vid = cv2.VideoWriter(['output.mp4',fourcc, 25, (640,480), False])
+vid = cv2.VideoWriter('out.avi',fourcc, fps, (width,height), False)
+vid.open('out.avi',fourcc, fps, (width,height), False)
 
-while(True):
-    ret, frame = cap.read()
+try:
+    while(True):
+        ret, frame = cap.read()
 
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-    bodies = body_cascade.detectMultiScale(gray, 1.3, 5)
-    bikes = bike_cascade.detectMultiScale(gray, 1.3, 5)
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+        bodies = body_cascade.detectMultiScale(gray, 1.3, 5)
+        uBodies = uBody_cascade.detectMultiScale(gray, 1.3, 5)
+        #bikes = bike_cascade.detectMultiScale(gray, 1.3, 5)
 
-    for (x,y,w,h) in faces:
-    	cv2.rectangle(frame, (x,y), (x+w, y+h), (255,0,0), 2)
-    	#roi_gray = gray[y:y+h, x:x+w] #region of image
-    	#roi_color = frame[y:y+h, x:x+w]
-    	#eyes = ...(roi_gray)
+        for i,(x,y,w,h) in enumerate(faces):
+            cv2.rectangle(frame, (x,y), (x+w, y+h), (255,0,0), 2) #BGR
+            face = frame[y:y+h, x:x+w]
+            #roi_gray = gray[y:y+h, x:x+w] #region of image
+        	#roi_color = frame[y:y+h, x:x+w]
+        	#eyes = ...(roi_gray)
 
-    # bodies = body_cascade.detectMultiScale(gray)
-    # for (x,y,w,h) in bodies:
-    # 	cv2.rectangle(frame, (x,y), (x+w, y+h), (0,0,255), 2)
+            print(avg_color)
 
-    for (x,y,w,h) in bikes:
-    	cv2.rectangle(frame, (x,y), (x+w, y+h), (0,255,0), 2)
+        uBodies = body_cascade.detectMultiScale(gray)
+        for (x,y,w,h) in uBodies:
+            cv2.rectangle(frame, (x,y), (x+w, y+h), (0,0,255), 2)
+            body = frame[y:y+h, x:x+w]
+            body_avg_color_per_row = np.average(body, axis=0)
+            body_avg_color = np.average(avg_color_per_row, axis=0)
 
-    cv2.imshow('frame',frame)
+        #for (x,y,w,h) in bikes:
+        #	cv2.rectangle(frame, (x,y), (x+w, y+h), (0,255,0), 2)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        cv2.imshow('frame',frame)
+        vid.write(frame)
 
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+except KeyboardInterrupt:
+    try:
+        sys.exit(0)
+    except SystemExit:
+        os._exit(0)
+    cap.release()
+    cv2.destroyAllWindows()
 
 cap.release()
 cv2.destroyAllWindows()
