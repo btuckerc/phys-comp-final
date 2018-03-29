@@ -10,6 +10,8 @@ uBody_cascade = cv2.CascadeClassifier('haarcascade_upperbody.xml')
 body_colors = []
 face_colors = []
 
+face_count = 0
+
 avg_body = np.zeros((300, 300, 3), np.uint8)
 avg_face = np.zeros((300, 300, 3), np.uint8)
 
@@ -34,10 +36,13 @@ try:
             #roi_gray = gray[y:y+h, x:x+w] #region of image
         	#roi_color = frame[y:y+h, x:x+w]
         	#eyes = ...(roi_gray)
+            face_count += 1
+            cv2.imwrite(os.path.join('faces','face{}.jpg').format(face_count),face)
 
         for (x,y,w,h) in uBodies:
+            padded_h = round(0.75 * h)
             cv2.rectangle(frame, (x,y), (x+w, y+h), (0,0,255), 2)
-            body = frame[y:y+h, x:x+w]
+            body = frame[y:(y+padded_h), x:x+w]
             body_avg_color_per_row = np.average(body, axis=0)
             body_avg_color = np.average(body_avg_color_per_row, axis=0)
             body_colors.append(body_avg_color)
