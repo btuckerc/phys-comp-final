@@ -8,14 +8,6 @@ uBody_cascade = cv2.CascadeClassifier('haarcascade_upperbody.xml')
 #bike_cascade = cv2.CascadeClassifier('bicycle.xml')
 
 cap = cv2.VideoCapture(0)
-width  = int(cap.get(cv2.cv.CV_CAP_PROP_FRAME_WIDTH))
-height = int(cap.get(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT))
-fps    = cap.get(cv2.cv.CV_CAP_PROP_FPS)
-fourcc = cv2.cv.CV_FOURCC('M','J','P','G')
-fourcc = int(cap.get(cv2.cv.CV_CAP_PROP_FOURCC))
-#vid = cv2.VideoWriter(['output.mp4',fourcc, 25, (640,480), False])
-vid = cv2.VideoWriter('out.avi',fourcc, fps, (width,height), False)
-vid.open('out.avi',fourcc, fps, (width,height), False)
 
 try:
     while(True):
