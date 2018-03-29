@@ -42,6 +42,7 @@ Potential visualization:
 
 * [OpenCV](https://opencv.org/) - A computer vision module for Python.
 * [HaarCascades](https://github.com/opencv/opencv/tree/master/data/haarcascades) - Definition of objects to be found in video stream in conjunction with OpenCV.
+* PyAudio: sudo apt-get install python-pyaudio python3-pyaudio
 * [Dummy Owl](https://www.amazon.com/gp/product/B0000AX52C/ref=s9u_wsim_gw_i1?ie=UTF8&fpl=fresh&pd_rd_i=B0000AX52C&pd_rd_r=f4a53eb7-3143-11e8-bb6d-df8617f41b33&pd_rd_w=8C0wE&pd_rd_wg=RXqoN&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=R3BY51ZJHCSKEH12TM6T&pf_rd_t=36701&pf_rd_p=e6624b56-7cc1-411f-9d12-9cc8feb6c214&pf_rd_i=desktop)
 
 ## Authors
