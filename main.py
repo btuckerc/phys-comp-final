@@ -40,7 +40,7 @@ try:
             cv2.imwrite(os.path.join('faces','face{}.jpg').format(face_count),face)
 
         for (x,y,w,h) in uBodies:
-            padded_h = round(0.75 * h)
+            padded_h = int(0.75 * h)
             cv2.rectangle(frame, (x,y), (x+w, y+h), (0,0,255), 2)
             body = frame[y:(y+padded_h), x:x+w]
             body_avg_color_per_row = np.average(body, axis=0)
