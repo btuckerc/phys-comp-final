@@ -1,4 +1,5 @@
 config.py
 /faces/*
+/images/*
 avg_body.jpg
 avg_face.jpg
